@@ -13,12 +13,12 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  border: 2px solid rgba(3, 117, 211, 0.295);
   width: 281px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
+  /* border-right: none; */
 }
 .search-button {
   padding: 10px 50px;
@@ -40,9 +40,9 @@ body {
   transition: 0.6s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 4px 4px 7px rgb(14, 24, 83);
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(246, 248, 248);
 }
 .product-image {
   width: 150px;
@@ -50,9 +50,9 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
+  border: 1px solid rgb(42, 135, 241); 
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: 10px 10px 20px rgb(213, 243, 243);
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
